@@ -70,8 +70,8 @@ This application provides a centralized workspace for recruitment teams to colla
 
    ```env
    PORT=8000
-   MONGODB_URI=mongodb+srv://hire:hireNotes@cluster0.jvvov4i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-   JWT_SECRET=hireNotes
+   MONGODB_URI=your_mongodb_atlas_connection_string
+   JWT_SECRET=your_secure_jwt_secret_key
    NODE_ENV=development
    ```
 
